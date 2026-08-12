@@ -1,0 +1,33 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+
+# IntelliJ / Java IDEs
+.idea/
+*.iml
+
+# Java / Maven build output
+target/
+*.class
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
