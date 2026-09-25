@@ -16,16 +16,22 @@ and frontend components are implemented.
 
 #### Database Setup
 
-To setup PostgresSQL, ensure [[version 18.6]](https://www.postgresql.org/download/windows) is installed.
+To setup PostgreSQL, ensure [version 18.6](https://www.postgresql.org/download/windows) is installed.
 
 Once installed, run the command:
 ```
-psql -U postgres
+psql -U postgres;
 ```
 
 Then, create a database for the project:
 ```
-CREATE DATABASE marketplace_analytics
+CREATE DATABASE marketplace_analytics;
+```
+
+To exit, use the command `\q`. Now, you can sign in using the command:
+
+```
+psql -U postgres -d marketplace_analytics
 ```
 
 ## Tools Used
