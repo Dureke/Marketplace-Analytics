@@ -14,11 +14,25 @@ Open the project directory in VS Code.
 Additional setup instructions will be added as the backend, database,
 and frontend components are implemented.
 
+#### Database Setup
+
+To setup PostgresSQL, ensure [[version 18.6]](https://www.postgresql.org/download/windows) is installed.
+
+Once installed, run the command:
+```
+psql -U postgres
+```
+
+Then, create a database for the project:
+```
+CREATE DATABASE marketplace_analytics
+```
+
 ## Tools Used
 This is a list of resources used in the project. Entries marked with (*) have not been implemented yet but will in a future version.
 - Java*
 - Python*
 - React*
-- PostgreSQL*
+- PostgreSQL
 - Docker*
 - Spring*
