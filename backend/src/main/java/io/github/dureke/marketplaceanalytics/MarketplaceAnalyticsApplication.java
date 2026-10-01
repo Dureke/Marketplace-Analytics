@@ -20,8 +20,6 @@ public class MarketplaceAnalyticsApplication {
         return args -> {
             try (Connection connection = dataSource.getConnection()) {
                 System.out.println("Database connection verified: " + connection.getMetaData().getDatabaseProductName());
-            } catch (SQLException e) {
-                e.printStackTrace();
             }
         };
     }
