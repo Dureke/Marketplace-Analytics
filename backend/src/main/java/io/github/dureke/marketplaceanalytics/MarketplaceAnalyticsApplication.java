@@ -6,7 +6,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.boot.CommandLineRunner;
 import javax.sql.DataSource;
 import java.sql.Connection;
-import java.sql.SQLException;
 
 @SpringBootApplication
 public class MarketplaceAnalyticsApplication {
