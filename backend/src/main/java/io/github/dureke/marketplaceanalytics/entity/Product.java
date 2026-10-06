@@ -39,4 +39,22 @@ public class Product {
 
     @Column(name = "quantity")
     private Integer quantity;
+
+    public Long getId() { return id; }
+    public String getMarketplaceProductId() { return marketplaceProductId; }
+    public BigDecimal getPrice() { return price; }
+    public String getProductName() { return productName; }
+    public OffsetDateTime getListedAt() { return listedAt; }
+    public OffsetDateTime getCreatedAt() { return createdAt; }
+    public String getCategory() { return category; }
+    public String getDescription() { return description; }
+    public Integer getQuantity() { return quantity; }
+
+    public void setMarketplaceProductId(String marketplaceProductId) { this.marketplaceProductId = marketplaceProductId; }
+    public void setPrice(BigDecimal price) { this.price = price; }
+    public void setProductName(String productName) { this.productName = productName; }
+    public void setListedAt(OffsetDateTime listedAt) { this.listedAt = listedAt; }
+    public void setCategory(String category) { this.category = category; }
+    public void setDescription(String description) { this.description = description; }
+    public void setQuantity(Integer quantity) { this.quantity = quantity; }
 }
